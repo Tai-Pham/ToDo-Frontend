@@ -1,0 +1,12 @@
+ 
+ 
+ <div style="text-align: center;"><br>
+        <form #addNoteForm="ngForm" (ngSubmit)="submit(addNoteForm)" confirm>
+        <table class="noteAlt" width="50%">
+            <tr><td><label>Note Title</label></td><td><input type="text"  name="title" ngModel></td></tr>
+            <tr><td><label>Note Body</label></td><td><textarea class="textarea" name="body"  ngModel></textarea></td></tr>
+            <tr><td><label>Is it Important? </label></td><td><input type="checkbox"  name="important" [(ngModel)]="chkFlag"></td></tr>
+            <tr><td></td><td><button mat-raised-button id="btn2">Add Note</button></td></tr>
+        </table>
+    </form>
+           </div>

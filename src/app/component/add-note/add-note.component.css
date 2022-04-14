@@ -1,0 +1,114 @@
+.main-div{
+    padding-left: 100px;
+    padding-right: 100px;
+    /* background-color: aqua; */
+}
+
+.card-div {
+    padding-bottom: 25px;
+}
+
+#btn1{
+    background-color: red;
+    margin-right: 30px;
+    color: white;
+}
+#btn1:hover{
+    background-color: #f44336;                                                   
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ 
+#btn2{
+    background-color: lightgrey;
+    color: black;
+}
+#btn2:hover{
+    background-color: grey;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.important{
+    /* background-color: crimson; */
+    /* color: green;*/ 
+     font-weight: bold;
+     
+ }
+ .title{
+    /* background-color: lightgrey;*/
+    font-stretch: ultra-condensed;
+    font-family:'Trebuchet MS', sans-serif;
+ }
+ 
+ .main-div{
+     padding-left: 100px;
+     padding-right: 100px;
+     /* background-color: aqua; */
+ }
+ 
+ .card-div {
+     padding-bottom: 25px;
+ }
+ 
+ #btn1{
+     background-color: rgb(61, 33, 107);
+     margin-right: 30px;
+     color: white;
+ }
+ #btn1:hover{
+     background-color: #f44336;                                                   
+     color: black;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+  
+ #btn2{
+     background-color: lightgrey;
+     color: black;
+ }
+ #btn2:hover{
+     background-color: grey;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+ .center {
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .noteAlt
+ {
+      background-color: #dae0e2;
+      background-image: url(../../../assets/pic/css-box-icon-3.webp);
+      background-position: 9px 0px;
+      background-repeat: no-repeat;
+      border-left: solid 9px rgb(11, 5, 65);
+      line-height: 18px;
+      overflow: scroll;
+      padding: 15px 60px;
+      border-radius: 3%;
+      margin-left:auto; 
+      margin-right:auto;
+      font-family: 'Trebuchet MS', sans-serif;
+  
+ }
+ 
+ input[type=text] {
+     width: 50%;
+     padding: 10px 1px;
+     margin: 2px 0;
+     display: inline-block;
+     border: 1px solid rgb(11, 5, 65);
+     border-radius: 4px;
+     box-sizing:content-box;
+   }
+   
+   .textarea {
+     /* width: 50%;
+     padding: 50px 50px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid rgb(11, 5, 65);
+     border-radius: 4px;
+     box-sizing: border-box; */
+     width: 75%;
+     height: 150px;
+   }
